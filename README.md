@@ -1,5 +1,5 @@
 # LSHLOF (Distributed Local Outlier Factor with Locality-Sensitive Hashing)
-<a href="https://dl.acm.org/doi/abs/10.1145/342009.335388"> Local Outlier Factor (LOF)</a> [1] is an important outlier detection technique, based on the relative densities among k-nearest neighbors. LOF has distinctive advantages on skewed datasets with regions of various densities. 
+<a href="https://dl.acm.org/doi/abs/10.1145/342009.335388"> Local Outlier Factor (LOF)</a> is an important outlier detection technique, based on the relative densities among k-nearest neighbors. LOF has distinctive advantages on skewed datasets with regions of various densities. 
 
 This project is an implementation of a distributed version of LOF, using Locality-Sensitive Hashing for data partitioning. More details on the implementation can be found at my <a href="https://ruor.uottawa.ca/handle/10393/39817"> Master's thesis</a>, Chapter 4.2. 
 
@@ -56,6 +56,3 @@ The current version of LSHLOF is built on Spark 2.4.3 and Scala 2.11.8.
 ## Feedback
 Please feel free to contact me for feedback and suggestions :)
 <a href="zhenglining5@gmail.com">email</a>
-
-## References:
-[1] Breunig, Markus M., et al. "LOF: identifying density-based local outliers." Proceedings of the 2000 ACM SIGMOD international conference on Management of data. 2000.
