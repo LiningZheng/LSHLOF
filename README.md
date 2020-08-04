@@ -55,4 +55,4 @@ The current version of LSHLOF is built on Spark 2.4.3 and Scala 2.11.8.
 
 ## Feedback
 Please feel free to contact me for feedback and suggestions :)
-<a href="zhenglining5@gmail.com">email</a>
+<a href="mailto:zhenglining5@gmail.com">email</a>
